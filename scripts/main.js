@@ -6,24 +6,20 @@ const mainContainer = document.querySelector("#container");
 
 const applicationHTML = `
 <h1>My Hero Academia Characters</h1>
-<article class="students">
     <section>
         <h2>Students of Class 1-A</h2>
-        ${Students()}
+        <div class="students">${Students()}</div>
     </section>
-</article>
-<article class="pros">
+
     <section>
         <h2>Pro Heroes</h2>
-        ${Pros()}
+        <div class="pros">${Pros()}</div>
     </section>
-</article>
-<article class="villains">
+
     <section>
         <h2>Villains</h2>
-        ${Villains()}
+        <div class="villains">${Villains()}</div>
     </section>
-</article>
 `
 
 mainContainer.innerHTML = applicationHTML;

@@ -1,0 +1,49 @@
+.heroCard {
+    display: flex;
+    background-color: gray;
+    width: 35%;
+    margin: 1em;
+    padding: 1em;
+}
+
+.villainCard {
+    display: flex;
+    background-color: gray;
+    width: 35%;
+    margin: 1em;
+    padding: 1em;
+}
+
+.image {
+    width: 100%;
+	height: auto;
+}
+
+.card-details {
+    max-width: 10em;
+}
+
+.students {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.pros {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.villains {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
